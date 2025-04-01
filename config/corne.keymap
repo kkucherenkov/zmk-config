@@ -27,11 +27,13 @@
         lwin {
             bindings = <&kp LWIN>;
             key-positions = <15 16>;
+            timeout-ms = <30>;
         };
 
         rwin {
             bindings = <&kp RWIN>;
             key-positions = <19 20>;
+            timeout-ms = <30>;
         };
     };
 
